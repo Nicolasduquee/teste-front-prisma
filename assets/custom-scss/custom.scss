@@ -21,19 +21,19 @@ $paleta-cores: (
     asuccess: #1E986F,
 );
 
-#top-bar{
-    background-color: map-get($paleta-cores, grayscale-black);
-    color: map-get($paleta-cores, grayscale-white);
-    font-size: 12px;
-    padding: 12px 72px 0px 72px;
-    
-    img{
-        width: 15px;
-        margin-right: 10px;
-    }
-}
-
 header{
+    #top-bar{
+        background-color: map-get($paleta-cores, grayscale-black);
+        color: map-get($paleta-cores, grayscale-white);
+        padding: 12px 72px 0px 72px;
+    
+        img{
+            width: 15px;
+            margin-right: 10px;
+        }
+    } 
+
+
      p{
         display: inline-block;
         padding-right: 10px;
@@ -56,15 +56,17 @@ header{
      }
 }
 
-#nav-footer{
-    background-color: map-get($paleta-cores, grayscale-black);;
+footer{
+    #nav-footer{
+        background-color: map-get($paleta-cores, grayscale-black);
 
-    a{
-        color: map-get($paleta-cores, grayscale-white) !important
-    }
+       a{
+        color: map-get($paleta-cores, grayscale-white);
+        }
+}
 }
 
 
 //Framework
-@import "../../bootstrap/scss/bootstrap.scss"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
 
