@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="container-fluid">
-        <section id="top-bar" class="row align-items-center justify-content-between">
+        <section id="top-bar" class="row align-items-center justify-content-between d-none d-xl-flex ">
             <div id="relacoes" class="col-4 d-flex justify-content-start">
                 <p>Relações com Investidores</p>
                 <p>Institucional</p>
@@ -43,26 +43,28 @@
                 </a>
             </div>   
             
-            <button class="navbar-toggler">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="col-lg-11 container-fluid justify-content-end navbar-collapse collapse">
-                <ul class="navbar-nav align-items-center">
-                    <li class="nav-item"><a class="nav-link"href="#">A companhia</a></li>
-
-                    <li class="nav-item"><a class="nav-link"href="#">Governança</a</li>
-
-                    <li class="nav-item"><a class="nav-link"href="#">Informações aos Investidores</a></li>
-
-                    <li class="nav-item"><a class="nav-link"href="#">Informações Financeiras</a></li>
-
-                    <li class="nav-item"><a class="nav-link"href="#"> Serviços RI</a></li>
-
-                    <span><img src="assets/images/busca.svg" class="border-left" alt="Icone busca"></span>
-
-                    <li class="nav-item"><a class="nav-link"href="#"> <span><img src="assets/images/lock.svg" alt="Icone cadeado"></span> Área restrita</a></li>
-                </ul>
+            <div class="col-lg-11 container-fluid justify-content-end">
+                <div id="navbarNav" class="navbar-collapse collapse justify-content-end">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item"><a class="nav-link"href="#">A companhia</a></li>
+    
+                        <li class="nav-item"><a class="nav-link"href="#">Governança</a</li>
+    
+                        <li class="nav-item"><a class="nav-link"href="#">Informações aos Investidores</a></li>
+    
+                        <li class="nav-item"><a class="nav-link"href="#">Informações Financeiras</a></li>
+    
+                        <li class="nav-item"><a class="nav-link"href="#"> Serviços RI</a></li>
+    
+                        <span><img src="assets/images/busca.svg" class="border-left" alt="Icone busca"></span>
+    
+                        <li class="nav-item"><a class="nav-link"href="#"> <span><img src="assets/images/lock.svg" alt="Icone cadeado"></span> Área restrita</a></li>
+                    </ul>
+                </div>
 
                 <button id="btn-stories" class="btn btn-custom">stories <strong>RI</strong><span id="spn-stories"><img src="assets/images/icon.svg" alt="Icone de stories"></span></button>
             </div>    
@@ -104,28 +106,28 @@
               </div>
 
             <article class="row">
-                <div id="resultados" class="col-6">
-                   <img src="assets/images/banner-4.jpg" alt="">
+                <div id="resultados" class="col-6 images-column p-0 ">
+                   <img src="assets/images/banner-4.jpg" alt="" class="img-fluid">
                 </div>
            
-                <div id="calendario" class="col-2">
-                    <img src="assets/images/banner-3.jpg" alt="">
-                </div>
-            </article>
-
-            <article class="container-fluid">
-                <div id="noticias">
-                    <img src="assets/images/banner-1.jpg" alt="">
+                <div id="calendario" class="col-6 images-column p-0 ">
+                    <img src="assets/images/banner-3.jpg" alt="" class="img-fluid">
                 </div>
             </article>
 
             <article class="row">
-                <div id="fale-ri" class="col-5">
-                    <img src="assets/images/banner-2.jpg" alt="">
+                <div id="noticias" class="col-12 images-column p-0">
+                    <img src="assets/images/banner.jpg" alt="" class="img-fluid">
                 </div>
-            
-                <div id="mailing" class="col-1">
-                    <img src="assets/images/banner-3.jpg" alt="">
+            </article>
+
+            <article class="row">
+                <div id="fale-ri" class="col-6 images-column p-0">
+                   <img src="assets/images/banner-1.jpg" alt="" class="img-fluid">
+                </div>
+           
+                <div id="mailing" class="col-6 images-column p-0">
+                    <img src="assets/images/banner-2.jpg" alt="" class="img-fluid">
                 </div>
             </article>
 
