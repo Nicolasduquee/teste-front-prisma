@@ -52,18 +52,20 @@ header{
 
         span{
             margin: 0px 5px 0px 5px;
+            background-color: map-get($paleta-cores, primary-30);
         }
      }
 }
 
 footer{
-    #nav-footer{
-        background-color: map-get($paleta-cores, grayscale-black);
 
+    background-color: map-get($paleta-cores, grayscale-black);
+
+    #nav-footer{
        a{
         color: map-get($paleta-cores, grayscale-white);
         }
-}
+    }
 }
 
 
